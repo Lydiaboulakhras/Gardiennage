@@ -82,6 +82,9 @@ nav {
 }
 nav img {
   object-fit: cover;
+  height: 130px;
+  width: 130px;
+  margin-bottom: 50px;
 }
 .navs {
   position: absolute;
@@ -225,6 +228,7 @@ a:hover {
   border-style: solid;
   border-radius: 7px;
   position: absolute;
+
   bottom: 28px;
   display: flex;
   justify-content: center;
@@ -360,11 +364,6 @@ i:hover {
   gap: 30px;
 }
 
-.footer {
-  width: 100%;
-  height: auto;
-}
-
 .texto {
   margin: 50px;
   display: flex;
@@ -406,4 +405,94 @@ i:hover {
 .email {
   display: flex;
   gap: 20px;
+}
+.footer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+.former {
+  background-color: white;
+  height: 380px;
+  width: 360px;
+  position: relative;
+  position: absolute;
+  bottom: 56px;
+  right: 70px;
+  margin-left: 30px;
+  border-radius: 6px;
+  box-shadow: -2px 1px 38px -14px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -2px 1px 38px -14px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -2px 1px 38px -14px rgba(0, 0, 0, 0.75);
+}
+
+.righty {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  right: 0px;
+}
+
+input {
+  height: 46px;
+  width: 300px;
+  margin: 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border-color: transparent;
+  box-shadow: -2px 1px 38px -14px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -2px 1px 38px -14px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -2px 1px 38px -14px rgba(0, 0, 0, 0.75);
+}
+
+label {
+  margin: 20px;
+}
+
+.former h3 {
+  margin-left: 26px;
+  margin-top: 10px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+button {
+  background-color: #d2ae64;
+  height: 50px;
+  width: 300px;
+  margin-left: 21px;
+  border-color: transparent;
+  border-radius: 7px;
+  text-align: center;
+  font-size: 18px;
+  position: absolute;
+  font-family: "Lato", sans-serif;
+  bottom: 7px;
+}
+
+button:hover {
+  background-color: #e0dfdd;
+  cursor: pointer;
+}
+
+.former p {
+  margin-bottom: 50px;
+  margin-left: 20px;
+  color: rgb(20, 104, 104);
+}
+
+.former p:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.copyright {
+  width: 100%;
+  flex-direction: row;
+  font-size: 16px;
+  margin-left: 30%;
+  display: flex;
 }

@@ -56,25 +56,27 @@
 
     <div class="home">
       <img
-        src="pics/Capture d’écran 2023-08-02 174442-PhotoRoom.png-PhotoRoom.png"
+        src="pics/true.png
+        "
         alt=""
         style="
           position: absolute;
           right: 170px;
           top: 120px;
-          height: 400px;
-          width: 400px;
+          height: 460px;
+          width: 460px;
+          object-fit: cover;
         "
       />
       <nav>
-        <img src="pics/Capture d’écran 2023-08-02 165000.jpg" alt="" />
+        <img src="pics/true.png" alt="" />
         <!--- <i
           class="fa-solid fa-shield-halved"
           style="font-size: 50px; margin-top: 30px"
         -->
         <div class="navs">
-          <a href="" style="color: rgb(251, 197, 19)">GIS securite</a>
-          <a href="">À propos</a>
+          <a href="" style="color: #d2ae64">GIS securite</a>
+          <a href=#apropos"">À propos</a>
 
           <a href="">Recrutement</a>
           <div class="dropdown">
@@ -108,7 +110,7 @@
       <img src="pics/trait.jpg" alt="" />
       <h4 style="margin-top: 70px">intervention 24h / 7j</h4>
     </div>
-    <div class="main">
+    <div class="main" id="apropos">
       <div class="leftside">
         <i class="fa-solid fa-shield-halved" style="font-size: 270px"></i>
       </div>
@@ -208,37 +210,61 @@
         <img src="pics/BNA_logo.jpeg" alt="" />
       </div>
     </div>
-    <div class="footer">
-      <div class="texto">
-        <h3 style="font-size: 40px">Contactez-ous</h3>
-        <img src="pics/trait noi.jpg" alt="" />
-        <p>vous souhaitez plus de renseignement sur nos services ?</p>
-        <p>
-          N’hésitez pas à nous contacter, nous vous répondrons dans les plus
-          brefs délais.
-        </p>
-      </div>
+    <div class="footer" id="contact">
+      <div class="left">
+        <div class="texto">
+         <a href="#contact"><h3 style="font-size: 40px" >Contactez-ous</h3></a> 
+          <img src="pics/trait noi.jpg" alt="" />
+          <p>vous souhaitez plus de renseignement sur nos services ?</p>
+          <p>
+            N’hésitez pas à nous contacter, nous vous répondrons dans les plus
+            brefs délais.
+          </p>
+        </div>
 
-      <div class="infos">
-        <div class="phone">
-          <i class="fa-solid fa-phone"></i>
-          0799730720
+        <div class="infos">
+          <div class="phone">
+            <i class="fa-solid fa-phone"></i>
+            0799730720
+          </div>
+          <img src="pics/trait.jpg" alt="" height="3px" width="300px" />
+          <div class="location">
+            <i class="fa-solid fa-location-dot"></i>
+            <ul>
+              <li>GIS securite</li>
+              <li>Rue didouche mourad</li>
+              <li>Alger centre , Alger</li>
+            </ul>
+          </div>
+          <img src="pics/trait.jpg" alt="" height="3px" width="300px" />
+          <div class="email">
+            <i class="fa-regular fa-envelope"></i>
+            contact@gis-securite.com
+          </div>
         </div>
-        <img src="pics/trait.jpg" alt="" height="3px" width="300px" />
-        <div class="location">
-          <i class="fa-solid fa-location-dot"></i>
-          <ul>
-            <li>GIS securite</li>
-            <li>Rue didouche mourad</li>
-            <li>Alger centre , Alger</li>
-          </ul>
-        </div>
-        <img src="pics/trait.jpg" alt="" height="3px" width="300px" />
-        <div class="email">
-          <i class="fa-regular fa-envelope"></i>
-          contact@gis-securite.com
+      </div>
+      <div class="righty">
+        <div class="former">
+          <h3 style="color: gray">sign in to your account</h3>
+          <br />
+
+          <form>
+            <label for="">E-mail </label> <br />
+            <input type="text" /> <br />
+            <label for="">Password </label> <br />
+            <input type="password" /><br />
+            <p>forgot password ?</p>
+            <button>sign in</button>
+          </form>
         </div>
       </div>
     </div>
+    <div class="copyright" >
+       <a href="https://www.prodigital.dz/">
+          <p class="copyright">All rights reserved PRODIGITAL © 2023</p>
+       </a>
+        
+    </div>
+   
   </body>
 </html>
